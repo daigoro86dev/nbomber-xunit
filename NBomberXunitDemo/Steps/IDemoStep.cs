@@ -4,6 +4,6 @@ namespace NBomberXunitDemo.Steps
 {
     public interface IDemoStep
     {
-        IStep CreateStep(string stepName, string url);
+        IStep CreateStep(string stepName);
     }
 }
